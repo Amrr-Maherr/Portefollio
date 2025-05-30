@@ -6,16 +6,16 @@ import { useRef } from "react";
 interface BlurFadeProps {
   children: React.ReactNode;
   className?: string;
-  variant?: Variants; // ← هنا عدّلنا النوع
+  variant?: Variants;
   duration?: number;
   delay?: number;
   yOffset?: number;
   inView?: boolean;
-  inViewMargin?: string;
+  inViewMargin?: string; // ← حطيناها كـ string (صح)
   blur?: string;
 }
 
-const BlurFade = ({
+const BlurFade: React.FC<BlurFadeProps> = ({
   children,
   className,
   variant,
@@ -23,10 +23,10 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "-50px",
+  inViewMargin = "-50px 0px 0px 0px", // ← margin بصيغة كاملة زي CSS
   blur = "6px",
-}: BlurFadeProps) => {
-  const ref = useRef(null);
+}) => {
+  const ref = useRef<HTMLDivElement | null>(null);
   const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
   const isInView = !inView || inViewResult;
 
