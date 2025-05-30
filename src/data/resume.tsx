@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon, UserIcon, GraduationCapIcon, CodeIcon, FolderIcon } from "lucide-react";
 
 export const DATA = {
   name: "Amr Maher Ali",
@@ -56,7 +56,10 @@ export const DATA = {
     },
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "#about", icon: UserIcon, label: "About" },
+    { href: "#education", icon: GraduationCapIcon, label: "Education" },
+    { href: "#skills", icon: CodeIcon, label: "Skills" },
+    { href: "#projects", icon: FolderIcon, label: "Projects" },
   ],
   contact: {
     email: "amrr.maherr242gmail.com",

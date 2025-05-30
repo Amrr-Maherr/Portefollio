@@ -27,7 +27,7 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-      <section id="work" className="my-5">
+      <section id="about" className="my-5">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
