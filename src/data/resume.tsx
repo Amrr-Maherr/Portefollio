@@ -134,9 +134,9 @@ export const DATA = {
         "Built responsive user interfaces using React.js, HTML, CSS, and JavaScript.",
     },
     {
-      company: "Nexus (Freelance)", // تم التعديل بناءً على مدخلاتك السابقة
+      company: "Nexus (Freelance)",
       badges: [],
-      href: "https://shopify.com", // استخدمت رابط Shopify حيث كان الـ href الأصلي نصًا
+      href: "https://shopify.com",
       location: "Remote",
       title: "Frontend Engineer",
       logoUrl: "/WhatsApp Image 2025-05-30 at 21.11.35_30b91b38.jpg",
