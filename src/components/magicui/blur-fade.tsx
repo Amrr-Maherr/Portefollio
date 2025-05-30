@@ -23,13 +23,10 @@ const BlurFade: React.FC<BlurFadeProps> = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "-50px 0px 0px 0px", // ← margin بصيغة كاملة زي CSS
+  inViewMargin = "-50px", // ← margin بصيغة كاملة زي CSS
   blur = "6px",
 }) => {
   const ref = useRef<HTMLDivElement | null>(null);
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
-  const isInView = !inView || inViewResult;
-
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
     visible: { y: -yOffset, opacity: 1, filter: `blur(0px)` },
@@ -41,8 +38,7 @@ const BlurFade: React.FC<BlurFadeProps> = ({
     <AnimatePresence>
       <motion.div
         ref={ref}
-        initial="hidden"
-        animate={isInView ? "visible" : "hidden"}
+        initial="block"
         exit="hidden"
         variants={combinedVariants}
         transition={{
