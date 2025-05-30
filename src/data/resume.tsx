@@ -134,7 +134,7 @@ export const DATA = {
         "Built responsive user interfaces using React.js, HTML, CSS, and JavaScript.",
     },
     {
-      company: "Nexus (Freelance) / Shopify Context", // تم التعديل بناءً على مدخلاتك السابقة
+      company: "Nexus (Freelance)", // تم التعديل بناءً على مدخلاتك السابقة
       badges: [],
       href: "https://shopify.com", // استخدمت رابط Shopify حيث كان الـ href الأصلي نصًا
       location: "Remote",
