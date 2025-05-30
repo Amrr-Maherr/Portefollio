@@ -5,13 +5,12 @@ export const DATA = {
   name: "Amr Maher Ali",
   initials: "DV",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
+  location: "Mansoura, Egypt",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
   "Frontend Engineer (React, Next.js, React Native) turned Entrepreneur. I love building things and helping people.",
   summary:
     "At the end of 2024, I made the decision to fully dedicate myself to front-end development after completing a top-ranked diploma in React from SEF Academy. I hold a bachelor’s degree in Management Information Systems and have a passion for creating clean, interactive, and user-friendly web applications. Over the past years, I’ve sharpened my skills in HTML, CSS, JavaScript, and React, building projects like Dish Discovery, which was featured by SEF Academy. My journey has been fueled by constant learning, hands-on projects, and a drive to push my boundaries in web development.",
-  avatarUrl: "/me.png",
   skills: [
     "HTML",
     "CSS",
@@ -65,14 +64,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Amrr-Maherr",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/Amrr-Maherr/",
         icon: Icons.linkedin,
 
         navbar: true,
@@ -129,7 +128,7 @@ export const DATA = {
       start: "Feb 2025",
       end: "Present",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Built responsive user interfaces using React.js, HTML, CSS, and JavaScript.",
     },
     {
       company: "Nexus (Freelance) / Shopify Context", // تم التعديل بناءً على مدخلاتك السابقة
