@@ -5,7 +5,7 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="py-12 md:py-20 bg-gradient-to-b from-background to-muted/40">
+    <section id="hero" className="py-12 md:py-20">
       <div className="mx-auto w-full max-w-5xl flex flex-col items-start justify-center gap-8 px-4">
         <BlurFadeText
           delay={BLUR_FADE_DELAY}
