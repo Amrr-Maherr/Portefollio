@@ -179,273 +179,330 @@ export const DATA = {
       end: "2023",
     },
   ],
-  projects: [
-    {
-      title: "Chat Collect",
-      href: "https://chatcollect.com",
-      dates: "Jan 2024 - Feb 2024",
-      active: true,
-      description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
-    {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
-      active: true,
-      description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://llm.report",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-    {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
-  ]
+  projects:[
+  {
+    "title": "Lawyer Program",
+    "href": "https://al-mo7amy.al-mosa.com/",
+    "dates": "Jan 2025 - Mar 2025",
+    "active": true,
+    "description": "Developed a comprehensive web application using React and Bootstrap to streamline case and client management for law firms.",
+    "technologies": [
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://al-mo7amy.al-mosa.com/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/Lawyer-program",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Ask Genie",
+    "href": "https://ask-genie-three.vercel.app/",
+    "dates": "Feb 2025 - Apr 2025",
+    "active": true,
+    "description": "Built an AI-powered Q&A web application with React and Axios, integrating Google AI API for dynamic responses.",
+    "technologies": [
+      "React",
+      "Next.js",
+      "Axios",
+      "JavaScript",
+      "TailwindCSS",
+      "React Query",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://ask-genie-three.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/AskGenie",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "SEF E-commerce",
+    "href": "https://web-monster-e-commerce.vercel.app/",
+    "dates": "Mar 2025 - May 2025",
+    "active": true,
+    "description": "Developed a responsive e-commerce platform using React and Bootstrap, supporting product filtering and a catalog with over 500 products.",
+    "technologies": [
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://web-monster-e-commerce.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/WebMonster-e-commerce",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "SEF Dashboard",
+    "href": "https://products-dashboard-five.vercel.app/",
+    "dates": "Apr 2025 - Jun 2025",
+    "active": true,
+    "description": "Built an integrated admin dashboard to manage inventory, track orders, and analyze sales data, improving operational efficiency for vendors.",
+    "technologies": [
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://products-dashboard-five.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/Products-Dashboard",
+       icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "YumAuth",
+    "href": "https://yum-auth.vercel.app/",
+    "dates": "May 2025 - Jul 2025",
+    "active": true,
+    "description": "Designed an interactive recipe browsing web application with React and Vite, featuring secure authentication routes.",
+    "technologies": [
+      "React",
+      "Vite",
+      "JavaScript",
+      "TailwindCSS",
+      "React Router DOM",
+      "Formik",
+      "Yup",
+      "Axios",
+      "React Query",
+      "Framer Motion",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://yum-auth.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/YumAuth",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Charlotte Sweets Dashboard",
+    "href": "https://charlotte.mlmcosmo.com/",
+    "dates": "Jan 2025 - Apr 2025",
+    "active": true,
+    "description": "Engineered an administrative dashboard with React and Bootstrap, integrating with mobile apps to optimize operations for 10+ branches.",
+    "technologies": [
+      "React",
+      "Bootstrap",
+      "JavaScript",
+      "Axios",
+      "Framer Motion",
+      "React Router DOM",
+      "Recharts",
+      "SweetAlert2",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://charlotte.mlmcosmo.com/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/Charlotte--Sweets",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Netflix",
+    "href": "https://netflix-662d.vercel.app/",
+    "dates": "Jun 2025 - Aug 2025",
+    "active": true,
+    "description": "Constructed a dynamic Netflix clone using Next.js, leveraging a movie API for seamless content display.",
+    "technologies": [
+      "Next.js",
+      "JavaScript",
+      "TMDB API",
+      "TailwindCSS",
+      "React Query",
+      "Axios",
+      "Framer Motion",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://netflix-662d.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/netflix",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Legends",
+    "href": "https://legends.legendsagencystuff.com/",
+    "dates": "Feb 2025 - May 2025",
+    "active": true,
+    "description": "Developed a dynamic web application with a user-friendly interface, leveraging modern front-end technologies for enhanced interactivity.",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://legends.legendsagencystuff.com/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/Legends",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Ether Landing Page",
+    "href": "https://ether-landign-page.vercel.app/",
+    "dates": "Mar 2025 - Jun 2025",
+    "active": true,
+    "description": "Developed a responsive landing page using React, designed to provide an engaging and user-friendly experience.",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://ether-landign-page.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/ether-landign-page",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Qafalah Alayman",
+    "href": "https://qafalah-alayman.vercel.app/",
+    "dates": "TBD",
+    "active": true,
+    "description": "Developed a web platform to streamline services for Qafalah Alayman, providing an intuitive user interface and optimized performance.",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://qafalah-alayman.vercel.app/",
+        icon: <Icons.globe className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/qafalah-alayman",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  },
+  {
+    "title": "Qafalah Alayman Control",
+    "href": "https://arabic-voyage-admin.vercel.app/",
+    "dates": "TBD",
+    "active": true,
+    "description": "Built an admin dashboard to manage and monitor Qafalah Alayman services, featuring a clean interface and efficient data handling.",
+    "technologies": [
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://arabic-voyage-admin.vercel.app/",
+        icon: <Icons.github className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/qafalah-alayman-control",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "",
+    "video": ""
+  }
+]
+
 } as const;
