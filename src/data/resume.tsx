@@ -181,34 +181,6 @@ export const DATA = {
   ],
   projects:[
   {
-    "title": "Lawyer Program",
-    "href": "https://al-mo7amy.al-mosa.com/",
-    "dates": "Jan 2025 - Mar 2025",
-    "active": true,
-    "description": "Developed a comprehensive web application using React and Bootstrap to streamline case and client management for law firms.",
-    "technologies": [
-      "React",
-      "Bootstrap",
-      "JavaScript",
-      "HTML",
-      "CSS"
-    ],
-    "links": [
-      {
-        "type": "Website",
-        "href": "https://al-mo7amy.al-mosa.com/",
-        icon: <Icons.globe className="size-3" />
-      },
-      {
-        "type": "Source",
-        "href": "https://github.com/Amrr-Maherr/Lawyer-program",
-        icon: <Icons.github className="size-3" />
-      }
-    ],
-    "image": "",
-    "video": ""
-  },
-  {
     "title": "Ask Genie",
     "href": "https://ask-genie-three.vercel.app/",
     "dates": "Feb 2025 - Apr 2025",
@@ -236,7 +208,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/AskGenie.png",
     "video": ""
   },
   {
@@ -264,7 +236,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/SEF E-commerce.png",
     "video": ""
   },
   {
@@ -292,7 +264,7 @@ export const DATA = {
        icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/SEF Dashboard.png",
     "video": ""
   },
   {
@@ -327,7 +299,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/YumAuth.png",
     "video": ""
   },
   {
@@ -360,7 +332,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/Charlotte.png",
     "video": ""
   },
   {
@@ -392,7 +364,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/Netflix.png",
     "video": ""
   },
   {
@@ -419,7 +391,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/Legends.png",
     "video": ""
   },
   {
@@ -446,7 +418,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/Ether.png",
     "video": ""
   },
   {
@@ -473,7 +445,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/Qafalah.png",
     "video": ""
   },
   {
@@ -500,7 +472,7 @@ export const DATA = {
         icon: <Icons.github className="size-3" />
       }
     ],
-    "image": "",
+    "image": "/Control.png",
     "video": ""
   }
 ]
