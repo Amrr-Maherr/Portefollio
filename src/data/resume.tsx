@@ -88,10 +88,10 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "amrr.maherr23@gmail.com",
+        url: "amrr.maherr24@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
