@@ -474,6 +474,34 @@ export const DATA = {
     ],
     "image": "/Control.png",
     "video": ""
+  },
+  {
+    "title": "Nexton E-Commerce",
+    "href": "https://nexton-e-commerce.vercel.app/",
+    "dates": "TBD",
+    "active": true,
+    "description": "Nexton E-Commerce is a front-end only e-commerce application built using Next.js. It implements a modern, responsive, and SEO-friendly interface based on a Figma design, including pages like.",
+    "technologies": [
+      "Next",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind"
+    ],
+    "links": [
+      {
+        "type": "Website",
+        "href": "https://nexton-e-commerce.vercel.app/",
+        icon: <Icons.github className="size-3" />
+      },
+      {
+        "type": "Source",
+        "href": "https://github.com/Amrr-Maherr/nexton-e-commerce",
+        icon: <Icons.github className="size-3" />
+      }
+    ],
+    "image": "/NEXTON.png",
+    "video": ""
   }
 ]
 
