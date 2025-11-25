@@ -1,12 +1,8 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
-import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
 import HeroSection from "./PagesComponents/HeroSection";
 import Contact from "./PagesComponents/Contact";
@@ -16,7 +12,10 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh]">
-          <HeroSection />
+      {/* ---------------- Hero ---------------- */}
+      <HeroSection />
+
+      {/* ---------------- About ---------------- */}
       <section id="about" className="my-5">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -27,7 +26,9 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-       <section id="skills" className="my-5">
+
+      {/* ---------------- Skills ---------------- */}
+      <section id="skills" className="my-5">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <h2 className="text-xl font-bold">Skills</h2>
@@ -41,7 +42,9 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="about" className="my-5">
+
+      {/* ---------------- Work Experience ---------------- */}
+      <section id="work" className="my-5">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -66,6 +69,8 @@ export default function Page() {
           ))}
         </div>
       </section>
+
+      {/* ---------------- Projects ---------------- */}
       <section id="projects" className="my-5">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
@@ -82,6 +87,7 @@ export default function Page() {
               </div>
             </div>
           </BlurFade>
+
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 mx-auto">
             {DATA.projects.map((project, id) => (
               <BlurFade
@@ -104,6 +110,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* ---------------- Education ---------------- */}
       <section id="education" className="my-5">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -126,7 +134,35 @@ export default function Page() {
           ))}
         </div>
       </section>
-          <Contact/>
+
+      {/* ---------------- Courses ---------------- */}
+      <section id="courses" className="my-5">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 7}>
+            <h2 className="text-xl font-bold">Courses & Training</h2>
+          </BlurFade>
+
+          {DATA.courses.map((course, id) => (
+            <BlurFade
+              key={course.title}
+              delay={BLUR_FADE_DELAY * 8 + id * 0.05}
+            >
+              <ResumeCard
+                key={course.title}
+                href={course.certificateUrl}
+                logoUrl={course.logoUrl}
+                altText={course.provider}
+                title={course.title}
+                subtitle={course.provider}
+                period={course.dates}
+                description={course.description}
+              />
+            </BlurFade>
+          ))}
+        </div>
+      </section>
+
+      <Contact />
     </main>
   );
 }
